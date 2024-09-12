@@ -1,8 +1,19 @@
 {
     "posts": [
-      { "id": 1, "title": "Hello World", "content": "This is a post." }
+    { "id": 1, "title": "Hello World", "content": "This is a post." }
     ],
     "comments": [
-      { "id": 1, "postId": 1, "text": "Nice post!" }
+    { "id": 1, "postId": 1, "text": "Nice post!" }
+    ],
+    "aluno": [
+        {"id": 1, "nomeDoAluno":"Aluno", "email": "aluno@fatec.br", "ra":"1000016816561", "curso":"GTI", "status":"Sem solicitação", "modalidade":"Sem definição" }
+    ],
+    "estagio": [
+        {"id": 1, "status":"Aluno", "TipoDeEstagio": "aluno@fatec.br", "modelo":"1000016816561", "solicitacao":"GTI", "dataSolicitacao":"Sem solicitação", "statusDoTermo":"Sem definição", "prorrogacaoPeriodo":"Sem definição" , "transicaoDoObrigatorio":"Sem definição" , "rescisaoTermo":"Sem definição" , "relatorioEstagio":"Sem definição" , "FichaAvaliacao":"Sem definição" }
+    ],
+    "entradaSolitacao":[
+        {}
     ]
-  }
+}
+
+		
