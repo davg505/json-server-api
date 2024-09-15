@@ -1,18 +1,33 @@
 {
-    "posts": [
-    { "id": 1, "title": "Hello World", "content": "This is a post." }
-    ],
-    "comments": [
-    { "id": 1, "postId": 1, "text": "Nice post!" }
-    ],
     "aluno": [
         {"id": 1, "nomeDoAluno":"Aluno", "email": "aluno@fatec.br", "ra":"1000016816561", "curso":"GTI", "status":"Sem solicitação", "modalidade":"Sem definição" }
     ],
     "estagio": [
-        {"id": 1, "status":"Aluno", "TipoDeEstagio": "aluno@fatec.br", "modelo":"1000016816561", "solicitacao":"GTI", "dataSolicitacao":"Sem solicitação", "statusDoTermo":"Sem definição", "prorrogacaoPeriodo":"Sem definição" , "transicaoDoObrigatorio":"Sem definição" , "rescisaoTermo":"Sem definição" , "relatorioEstagio":"Sem definição" , "FichaAvaliacao":"Sem definição" }
+        {"id": 1, "alunoId": 1, "status":"Não solicitado", "TipoDeEstagio": "Não realizado", "modelo":"Não realizado", "solicitacao":"Não realizado", "dataSolicitacao":"Não realizado", "statusDoTermo":"Sem definição", "prorrogacaoPeriodo":"Sem definição" , "transicaoDoObrigatorio":"Sem definição" , "rescisaoTermo":"Sem definição" , "relatorioEstagio":"Sem definição" , "FichaAvaliacao":"Sem definição" }
     ],
     "entradaSolitacao":[
-        {}
+        {
+            "email": "teste@teste",
+            "name": "teste",
+            "estagioTipo": "obrigatorio",
+            "estagioModelo": "remunerado",
+            "dataIncial": "2024-08-20",
+            "dataFinal": "2025-08-20",
+            "cnpj": "11111111111111",
+            "local": "teste",
+            "superior": "teste",
+            "tel": "11111111111111",
+            "id": 1726247613835,
+            "alunoId": 2
+        }
+    ],
+    "textoPadroes":[
+        {
+            "solicitado":"Não solicitado",
+            "realizado":"Não realizado",
+            "status":"Enviado Solicitação",
+            "definicao":"Sem definição"
+        }
     ]
 }
 
