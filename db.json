@@ -1,9 +1,28 @@
 {
     "aluno": [
-        {"id": 1, "nomeDoAluno":"Aluno", "email": "aluno@fatec.br", "ra":"1000016816561", "curso":"GTI", "status":"Sem solicitação", "modalidade":"Sem definição" }
+        {"id": 1,
+        "nomeDoAluno":"Aluno",
+        "email": "aluno@fatec.br",
+        "ra":"1000016816561",
+        "curso":"GTI",
+        "status":"Sem solicitação",
+        "modalidade":"Sem definição" }
     ],
     "estagio": [
-        {"id": 1, "alunoId": 1, "status":"Não solicitado", "TipoDeEstagio": "Não realizado", "modelo":"Não realizado", "solicitacao":"Não realizado", "dataSolicitacao":"Não realizado", "statusDoTermo":"Sem definição", "prorrogacaoPeriodo":"Sem definição" , "transicaoDoObrigatorio":"Sem definição" , "rescisaoTermo":"Sem definição" , "relatorioEstagio":"Sem definição" , "FichaAvaliacao":"Sem definição" }
+        {
+            "id": 1,
+            "alunoId": 1,
+            "status":"Não solicitado",
+            "TipoDeEstagio": "Não realizado",
+            "modelo":"Não realizado",
+            "solicitacao":"Não realizado",
+            "dataSolicitacao":"Não realizado",
+            "statusDoTermo":"Sem definição",
+            "prorrogacaoPeriodo":"Sem definição",
+            "transicaoDoObrigatorio":"Sem definição",
+            "rescisaoTermo":"Sem definição",
+            "relatorioEstagio":"Sem definição",
+            "FichaAvaliacao":"Sem definição" }
     ],
     "entradaSolitacao":[
         {
@@ -28,7 +47,113 @@
             "status":"Enviado Solicitação",
             "definicao":"Sem definição"
         }
+    ],
+
+    "empresa": [
+        {
+            "id": 1,
+            "NomeEmpresa":"testeSA",
+            "CNPJ":"12165413654",
+            "endereco":"teste ",
+            "local": "teste",
+            "estado": "SP"
+        }
+    ],
+
+    "empresaAluno": [
+        {
+            "id": 1,
+            "alunoId": 1,
+            "empresaId": 1,
+            "nomeRepresentante": "teste",
+            "cargoFunção": "teste",
+            "cpfRepresentante": 322222222222
+        }
+    ],
+
+    "entradaEmpresaAluno": [
+    ],
+
+    "entradaDadosEstagioAluno": [
+    ],
+
+
+
+
+    "dadosPessoalAluno": [
+        {
+            "id": 1,
+            "alunoId": 1,
+            "cpf": 11121316518,
+            "rg": 1321313132,
+            "cidade": "Campinas",
+            "estado": "Sp",
+            "endereco":"teste ",
+            "cep":"1234644"
+        }
+    ],
+
+    "dadosFatec": [
+        {
+            "id": 1,
+            "cnpj": 11121316518,
+            "cidade": "Campinas",
+            "estado": "Sp",
+            "endereco":"teste ",
+            "cep":"1234644"
+        }
+    ],
+
+    "dadosFatecCurso": [
+        {
+            "id": 1,
+            "curso": "GTI"
+        }
+    ],
+
+    "dadosFatecAluno": [
+        {
+            "id": 1,
+            "alunoId": 1,
+            "cpf": 11121316518,
+            "rg": 1321313132,
+            "cidade": "Campinas",
+            "estado": "Sp",
+            "endereco":"teste ",
+            "cep":"1234644"
+        }
+    ],
+
+    "dadosEstagioAluno": [
+        {
+            "id": 1,
+            "alunoId": 1,
+            "horaEntrada":13,
+            "horaSaida":14,
+            "horaRefeicao":12,
+            "horasSemanais":36,
+            "dataIncial": "2024-08-20",
+            "dataFinal": "2025-08-20",
+            "valorEstagio":1213
+        }
+    ],
+
+    
+    "planoAtividadesEstágio ": [
+        {
+            "id": 1,
+            "alunoId": 1,
+            "atividade":"teste",
+            "descricaoDaAtividade":"teste",
+            "ObjetivoResultadoEsperado":"teste",
+            "horasSemanais":36,
+            "periodoDataIncial": "2024-08-20",
+            "periododataFinal": "2025-08-20",
+            "valorEstagio":1213
+        }
     ]
+
+    
 }
 
 		
