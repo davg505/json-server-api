@@ -19,13 +19,13 @@
             "tipo": "Iniciação Cientifica"
         },
         {
-            "id": 2,
+            "id": 3,
             "tipo": "Equivalencia Profisssional"
         }
     ],
 
     "tabelaTipoModuloAluno": [
-        
+
     ],
 
     "estagio": [
