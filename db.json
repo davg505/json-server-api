@@ -8,6 +8,26 @@
         "status":"Sem solicitação",
         "modalidade":"Sem definição" }
     ],
+
+    "tabelaTipoModulo": [
+        {
+            "id": 1,
+            "tipo": "Estagio"
+        },
+        {
+            "id": 2,
+            "tipo": "Iniciação Cientifica"
+        },
+        {
+            "id": 2,
+            "tipo": "Equivalencia Profisssional"
+        }
+    ],
+
+    "tabelaTipoModuloAluno": [
+        
+    ],
+
     "estagio": [
         {
             "id": 1,
